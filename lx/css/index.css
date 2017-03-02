@@ -1,0 +1,358 @@
+/*banner 开始*/
+
+#banner{
+    width: 100%;
+    height:600px;
+    float: left;
+    background: #02D7FD;
+}
+#container{
+    width: 100%;
+    height:600px;
+    background: #ccc;
+    margin: 0px auto;
+    position: relative;
+}
+#tab{
+    height: 20px;
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+}
+#tab li{
+    width: 20px;
+    height: 20px;
+    background: #000;
+    color: #fff;
+    text-align: center;
+    line-height: 20px;
+    float: left;
+    margin-right: 5px;
+    cursor: pointer;
+}
+#tab .selected{
+    background: #02D7FD;
+}
+#imgs img{
+    width: 100%;
+    height:600px;
+    display: none;
+}
+#imgs .selected{
+    display: block;
+}
+#arrow{
+    position: absolute;
+    left: 10px;
+    bottom: 10px;
+}
+#arrow span{
+    float: left;
+    width: 40px;
+    height: 40px;
+    background: #000;
+    color: #fff;
+    text-align: center;
+    line-height: 40px;
+    margin-right: 5px;
+    cursor: pointer;
+}
+/*banner 结束*/
+
+/*nav 开始*/
+
+#nav{
+    width: 100%;
+    height: 110px;
+    float: left;
+    background: #000;
+}
+#nav .nav-container{
+    width: 1380px;
+    height: 90px;
+    margin: 0 auto;
+    margin-top:10px;
+    margin-bottom: 10px;
+    border: 1px solid #02D7FD;
+    border-radius: 6px;
+}
+#nav .ul1{
+    width: 64px;
+    height: 75px;
+    margin-top: 7px;
+    margin-left: 28px;
+    float: left;
+}
+#nav .ul1 li{
+    width: 64px;
+    height: 25px;
+    line-height: 25px;
+}
+#nav .ul1 a{
+    color: #ccc;
+    font-size: 14px;
+}
+#nav .sep{
+    width:2px;
+    height: 50px;
+    /*float: left;*/
+    float: left;
+    margin-top: 17px;
+    background: #00CC00;
+    line-height: 50px;
+    padding: 0;
+    background-image: -webkit-linear-gradient(#000 15%,#02D7FD 50%,#222 100%);
+    background-image: -moz-linear-gradient(#000 15%,#02D7FD 50%,#222 100%);
+    background-image: -o-linear-gradient(#000 15%,#02D7FD 50%,#222 100%);
+    background-image: linear-gradient(#000 15%,#02D7FD 50%,#222 100%);
+
+
+}
+#nav .ul2{
+    width: 164px;
+    height: 75px;
+    margin-top: 7px;
+    margin-left: 28px;
+    float: left;
+}
+#nav .ul2 li{
+    width: 164px;
+    height: 25px;
+    line-height: 25px;
+    /*float: left;*/
+}
+#nav .ul2 a{
+    color: #ccc;
+    font-size: 14px;
+}
+#nav .ul3{
+    width: 164px;
+    height: 75px;
+    margin-top: 7px;
+    margin-left: 28px;
+    float: left;
+}
+#nav .ul3 li{
+    width: 164px;
+    height: 25px;
+    line-height: 25px;
+}
+#nav .ul3 a{
+    color: #ccc;
+    font-size: 14px;
+}
+#nav .ul6{
+    width: 164px;
+    height: 75px;
+    margin-top: 7px;
+    margin-left: 28px;
+    float: left;
+}
+#nav .ul6 li{
+    width: 164px;
+    height: 25px;
+    line-height: 25px;
+}
+#nav .ul6 a{
+    color: #ccc;
+    font-size: 14px;
+}
+#nav .ul7{
+     width: 164px;
+     height: 75px;
+     margin-top: 7px;
+     margin-left: 28px;
+     float: left;
+ }
+#nav .ul7 li{
+    width: 164px;
+    height: 25px;
+    line-height: 25px;
+}
+#nav .ul7 a{
+    color: #ccc;
+    font-size: 14px;
+}
+
+#nav .ul8{
+    width: 164px;
+    height: 75px;
+    margin-top: 7px;
+    margin-left: 28px;
+    float: left;
+}
+#nav .ul8 li{
+    width: 164px;
+    height: 25px;
+    line-height: 25px;
+}
+#nav .ul8 a{
+    color: #ccc;
+    font-size: 14px;
+}
+/*nav 结束*/
+
+/*电视剧div1 开始*/
+#div1{
+    width: 100%;
+    height:363px;
+    float: left;
+    margin-top: 40px;
+}
+#div1 .rebo{
+    width: 1400px;
+    height: 343px;
+    /*padding-left: 20px;*/
+    margin: 0 auto;
+    padding-bottom:20px;
+    /*background: #1b961b;*/
+
+}
+#div1 .rebo-header{
+    width: 100%;
+    height: 38px;
+    margin-bottom: 15px;
+    float: left;
+    /*background: #000000;*/
+    -weblit-border-top: 1px solid #02D7FD;
+    -moz-border-top: 1px solid #02D7FD;
+    -o-border-top: 1px solid #02D7FD;
+    border-top: 1px solid #02D7FD;
+    -webkit-border-top-left-radius: 80px;
+    -moz--border-top-left-radius: 80px;
+    -o--border-top-left-radius: 80px;
+    -border-top-left-radius: 80px;
+}
+#div1 .zuijin{
+    width: 120px;
+    height: 41px;
+    padding-left: 40px;
+    float: left;
+    -webkit-border-top-left-radius: 80px;
+    -moz-border-top-left-radius: 80px;
+    -o-border-top-left-radius: 80px;
+    border-top-left-radius: 80px;
+    -webkit-border-bottom-right-radius: 80px;
+    -moz-border-bottom-right-radius: 80px;
+    -o-border-bottom-right-radius: 80px;
+    border-bottom-right-radius: 80px;
+    -webkit-border-left: 1px solid #02D7FD;
+    -moz-border-left: 1px solid #02D7FD;
+    -o-border-left: 1px solid #02D7FD;
+    border-left: 1px solid #02D7FD;
+    -webkit-border-right: 1px solid #02D7FD;
+    -moz-border-right: 1px solid #02D7FD;
+    -o-border-right: 1px solid #02D7FD;
+    border-right: 1px solid #02D7FD;
+    background: #02D7FD;
+
+}
+#div1 .zj{
+    line-height:41px;
+    text-indent: 10px;
+    color: #ffffdd;
+}
+#div1 .pp{
+    float: left;
+    line-height: 41px;
+    margin-left: 40px;
+}
+#div1 .rebo-header a{
+    color: #3c3c3c;
+}
+#div1 .rebo-content{
+    width:1400px;
+    height: 304px;
+    float: left;
+    margin-left: -20px;
+
+    /*background: #3c3c3c;*/
+
+}#div1 .ul1{
+     width: 1400px;
+     height: 236px;
+     float: left;
+
+ }
+#div1 .ul1 li{
+    width: 180px;
+    height:236px;
+    float: left;
+    padding-left: 20px;
+    cursor: pointer;
+}
+#div1 ul li img{
+    width: 180px;
+    height: 236px;
+    float: left;
+}
+#div1 .ul2{
+    width: 1400px;
+    height:46px;
+    float: left;
+}
+#div1 .ul2 li{
+    width: 180px;
+    height:46px;
+    float: left;
+    margin-left: 20px;
+    /*text-align: center;*/
+    line-height: 46px;
+    background: #f5f5f5;
+}
+#div1 .ul2 li a{
+    color: #888888;
+}
+#div1 .ul2 li span{
+    float: right;
+    color: #ffbe40;
+}
+
+/*电视剧div1 结束*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

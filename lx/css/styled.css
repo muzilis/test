@@ -1,0 +1,175 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  font-family: 'Raleway', sans-serif;
+  position: relative;
+  /*background: #ccc;*/
+}
+ul,ol{
+  list-style: none;
+}
+a{
+  text-decoration: none;
+}
+img{
+  border: 0;
+}
+/************header开始*************/
+#header{
+  width:100%;
+  height: 60px;
+  background: #222;
+}
+#header-container{
+  width:1380px;
+  height:45px;
+  padding-top: 5px;
+  margin: 0 auto;
+  /*background: #000000;*/
+}
+#header-logo{
+  width: 105px;
+  height: 50px;
+  float: left;
+
+
+}
+#header-logo img{
+  width:105px;
+  height: 50px;
+}
+
+.h-mulu{
+  width: 550px;
+  height: 27px;
+  float: right;
+  /*background: #fff;*/
+  /*margin-left: 100px;*/
+  margin-top: 10px;
+}
+.h-mulu li{
+  float: left;
+  width: 259px;
+  height:24px;
+  line-height: 24px;
+  color: #dddddd;
+  cursor: pointer;
+
+}
+.h-mulu li a{
+  color: #dddddd;
+}
+.h-mulu .denglu{
+  color: #a5d8a5;
+}
+#con{
+  position:absolute;
+  left:20%;
+  /*top: 10%;*/
+}
+#content{
+  position: relative;
+  float: left;
+}
+#kw{
+
+  width:300px;
+  height: 40px;
+  background: #fff;
+  float: left;
+  color: #3c3c3c;
+
+}
+/*#btn{*/
+  /*float: left;*/
+  /*position: absolute;*/
+  /*right:55%;*/
+  /*top:50%;*/
+/*}*/
+.item{
+  padding:3px 5px;
+  cursor:pointer;
+}
+.addbg{
+  background:#87A900;
+}
+.first{
+  border:solid #87A900 2px;
+  width:300px;
+  height: 40px;
+  /*position: absolute;*/
+
+}
+#append{
+  border:solid #87A900 2px;
+  border-top:0;
+  display:none;
+  background: #a5d8a5;
+  /*z-index: 1;*/
+
+  /*z-index: 99999;*/
+}
+/*.header-search{*/
+  /*margin-left: 300px;*/
+  /*width: 400px;*/
+  /*height: 100%;*/
+  /*float: left;*/
+  /*!*background: #fff;*!*/
+/*}*/
+/*.h-input input{*/
+  /*width:300px;*/
+  /*height: 40px;*/
+  /*background: #fff;*/
+  /*float: lef  t;*/
+  /*!*border-radius: 10px;*!*/
+/*}*/
+/*.h-push{*/
+  /*width:90px;*/
+  /*height:98%;*/
+  /*float: left;*/
+  /*background: #02D7FD;*/
+
+/*}*/
+/*.h-push #h-search{*/
+  /*text-align: center;*/
+  /*line-height:40px;*/
+  /*cursor: pointer;*/
+  /*color: #f0f0f0;*/
+/*}*/
+/*************header结束***************/
+
+
+#top{
+  width:50px;
+  height: 50px;
+  position: fixed;
+  bottom: 40px;
+  right: 15px;
+  color: #f2f2f2;
+  line-height:50px;
+  text-align: center;
+  border-radius: 100%;
+  background: #3c3c3c;
+  cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,11 @@
+.lightbox-img{
+    max-width:600px;
+    position:fixed;
+    z-index:999999;
+}
+.close-btn{
+    position: absolute;
+    top:0;
+    left:0;
+    cursor: pointer;
+}
